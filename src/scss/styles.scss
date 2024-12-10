@@ -16,9 +16,15 @@ $container-max-widths: (
   xxl: 1500px
 );
 
-$primary: #00975d;
+$primary: #BA7900;
 $headings-font-family: "Impact", sasn-serif;
-$card-title-color: #000000;
+$card-title-color: #BA7900;
+$bgcolor: #000000;
+$light: #0ea863;
+$secondary: #181818;
+$warning: #BA7900;
+$danger: #242424;
+$white: #c4c4c4;
 
 $grid-gutter-width: 5rem;
 
@@ -37,4 +43,8 @@ $grid-gutter-width: 5rem;
     @include media-breakpoint-up(xl) {
         padding: 8rem 0;
     }
+}
+
+ul {
+  list-style-type: none;
 }
